@@ -1,7 +1,7 @@
 /* width:1320px */
 /* 양쪽 패딩 : 20px */
 /* 실제 컨텐츠 넓이 : 1280px */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -35,7 +35,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* font-family: "Poppins", sans-serif; */
   font-size: 16px;
   color: #111;
@@ -94,7 +94,7 @@ body {
   width: 1280px;
   height: 728px;
   margin: 0 auto;
-  background-image: url("../images/main_visual.png");
+  background-image: url('../images/main_visual.png');
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .slide .text_box h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   color: #000;
   letter-spacing: -1.6px;
@@ -160,7 +160,7 @@ body {
 .product h2 {
   font-weight: 800;
   font-size: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 26px;
 }
 
@@ -171,7 +171,7 @@ body {
 }
 
 .product ul::after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #c4c4c4;
   width: 100%;
@@ -186,14 +186,14 @@ body {
 }
 
 .product ul li::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 7px;
   background-color: #111;
   bottom: 0;
   z-index: 1;
-  transition: width 0.3s;
+  transition: 0.3s;
 }
 
 .product ul li:hover::after {
@@ -230,7 +230,7 @@ body {
 .mailing .text_box h2 {
   font-weight: 800;
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
 }
 
